@@ -31,7 +31,7 @@
         </form>
         <div class="row">
             <a href="{{ route('projects.index') }}"  class="btn btn-primary col m-2">Back to Projects</a><br>
-            <a href="{{ route('home') }}"  class="btn btn-primary col m-2">Back to DashBoard</a>
+            <a href="{{ route('home') }}"  class="btn btn-primary col m-2">Back to Dashboard</a>
         </div>
     </div>
 </div>

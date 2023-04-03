@@ -24,7 +24,7 @@
         @endif
         <a href="{{ route('projects.index') }}" class="btn btn-primary col m-2">Back to Projects</a>
         @if(Auth::id() == $project -> id)
-            <a href="{{ route('home') }}" class="btn btn-primary col m-2">Back to DashBoard</a>
+            <a href="{{ route('home') }}" class="btn btn-primary col m-2">Back to Dashboard</a>
         @endif
 </div>
     </div>

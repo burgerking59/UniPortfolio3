@@ -7,7 +7,7 @@
         <form action="{{ route('home.delete', $project -> pid) }}" method="POST">
             @csrf
             @method('DELETE')
-            <label class="form-label">Are you sure you want to delete {{ $project -> title }}?</label>
+            <h1 class="form-label">Are you sure you want to delete {{ $project -> title }}?</h1>
             <div class="row">
                 <input type="submit" class="form-control btn btn-primary col m-2" value="Delete">
                 <a href="{{ route('projects.show', $project -> pid) }}" class="btn btn-primary col m-2">Cancel</a>
