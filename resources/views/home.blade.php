@@ -31,9 +31,9 @@
                             </div>
 
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="searchBy" value="end_date" id="end_date">
-                                <label class="form-check-label" for="end_date">
-                                    End Date
+                                <input class="form-check-input" type="radio" name="searchBy" value="start_date" id="start_date">
+                                <label class="form-check-label" for="start_date">
+                                    Start Date
                                 </label>
                             </div>
                             @if(!empty($search))
