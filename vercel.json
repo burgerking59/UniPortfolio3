@@ -11,6 +11,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
+        "APP_KEY": "base64:XMAZMgmzWFzHd2UGO+E+pjfjwVTC6sV7IgZb2IuHKmM=",
         "APP_URL": "https://AProject.com",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
