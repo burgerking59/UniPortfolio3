@@ -21,10 +21,27 @@
         </div>
         @if(!empty($search))
         <label>Search results for {{ $search }}</label><br>
+        <a href="{{ route('projects.index') }}">Clear Search</a>
         @endif
     </div>
 </form>
 
+<div class="row" style="--bs-gutter-x: 0;">
+@foreach($projects as $project)
+    <div class="col-sm-6 mb-3">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">{{ $project -> title }}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Start Date: {{ $project -> start_date }}
+        <p class="card-text">{{ $project -> description }}</p>
+        <a href="{{ route('projects.show', $project -> pid) }}" class="btn btn-primary">More Info</a>
+      </div>
+    </div>
+  </div>
+@endforeach
+</div>
 <div class="mx-auto pb-10 w-4/5">
+    {{ $projects->links() }}
 </div>
 @endsection        
+
