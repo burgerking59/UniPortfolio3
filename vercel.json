@@ -21,6 +21,13 @@
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
 
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "127.0.0.1",
+        "DB_PORT": "3306",
+        "DB_DATABASE": "portfolio3db",
+        "DB_USERNAME": "root",
+        "DB_PASSWORD": "",
+
         "POSTGRES_URL": "postgres://default:RwbQXzU8Mh3O@ep-cold-sun-52505534-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb",
         "POSTGRES_PRISMA_URL": "postgres://default:RwbQXzU8Mh3O@ep-cold-sun-52505534-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb?pgbouncer=true&connect_timeout=15",
         "POSTGRES_URL_NON_POOLING": "postgres://default:RwbQXzU8Mh3O@ep-cold-sun-52505534.us-east-1.postgres.vercel-storage.com:5432/verceldb",
