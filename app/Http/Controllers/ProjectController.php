@@ -14,7 +14,8 @@ class ProjectController extends Controller
     public function index() {
         $search = request('search');
         if (empty($search)) {
-            $projects = Project::paginate(4);
+            //$projects = Project::paginate(4);
+            $projects = [];
         } else {
             $projects = Project::where(request('searchBy'), 'LIKE', '%'.$search.'%')->paginate(4)->withQueryString();
         }
